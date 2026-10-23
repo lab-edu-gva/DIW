@@ -1,0 +1,13 @@
+body { 
+    color: #f4f4f4;
+    font-style: Arial, sans-serif;
+}
+
+.titulo-destacado{
+    color: blue;
+    font-size: 24px;
+}
+
+p { color:blue }
+.texto-destacado {font-weight: bold;}
+#nombre { color:rgb(255,0,0,0.75)}
