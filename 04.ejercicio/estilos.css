@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 50px;
+}
+
+/* El contenedor padre tiene un ancho estricto de 360px */
+.contenedor-padre {
+  width: 360px;
+  background-color: #e0e0e0;
+  border: 2px dashed #999;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* --- A PARTIR DE AQUÍ ESTÁN LOS BUGS --- */
+
+.tarjeta-producto {
+  width: 360px;
+  padding: 25px;
+  border: 5px solid #222;
+  background-color: #ffffff;
+  /* BUG 1: La tarjeta se sale lateralmente del contenedor padre */
+}
+
+.badge-nuevo {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #e63946;
+  color: white;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 12px;
+  /* BUG 2: La insignia no se posiciona respecto a la tarjeta */
+}
+
+.imagen-contenedor img {
+  width: 100%;
+  height: auto;
+}
+
+.contenido h2 {
+  font-size: 20px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.btn-comprar {
+  background-color: #1d3557;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  /* BUG 3: El margin-top no funciona como se espera */
+}
+
+.precio-box {
+  margin-top: 15px;
+}
+
+.precio {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
