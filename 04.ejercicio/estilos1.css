@@ -1,5 +1,4 @@
 
-/* Aplicamos el modelo de cajas border-box a todos los elementos */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +11,7 @@ body {
   padding: 50px;
 }
 
+/* Contenedor padre */
 .contenedor-padre {
   width: 360px;
   background-color: #e0e0e0;
@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
 }
 
+/* Tarjeta de producto */
 .tarjeta-producto {
   width: 100%;
   padding: 25px;
@@ -28,6 +29,7 @@ body {
   position: relative;
 }
 
+/* Insignia de oferta */
 .badge-nuevo {
   position: absolute;
   top: -10px;
@@ -39,24 +41,28 @@ body {
   font-size: 12px;
 }
 
+/* Imagen del producto */
 .imagen-contenedor img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+/* Título */
 .contenido h2 {
   font-size: 20px;
   color: #1d3557;
   margin-bottom: 10px;
 }
 
+/* Descripción */
 .descripcion {
   font-size: 14px;
   color: #666;
   line-height: 1.4;
 }
 
+/* Botón de compra */
 .btn-comprar {
   display: inline-block;
   background-color: #1d3557;
@@ -67,10 +73,12 @@ body {
   border-radius: 5px;
 }
 
+/* Contenedor del precio */
 .precio-box {
   margin-top: 15px;
 }
 
+/* Precio */
 .precio {
   font-size: 22px;
   font-weight: bold;
