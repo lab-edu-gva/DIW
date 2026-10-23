@@ -1,0 +1,54 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Tarjeta de usuario */
+.tarjeta {
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Imagen de cabecera */
+.tarjeta-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Título */
+.tarjeta h2 {
+    color: #243b53;
+    margin-top: 15px;
+}
+
+/* Descripción */
+.tarjeta p {
+    color: #52606d;
+    line-height: 1.5;
+}
+
+/* Enlace con aspecto de botón */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Efecto al pasar el ratón */
+.boton:hover {
+    background-color: #004c99;
+}

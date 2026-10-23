@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 40px, 20px;
+}
+
+.tarjeta {
+    max-width: 320px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tarjeta h2 {
+    color: #243b53;
+    margin-top: 15px;
+}
+
+.tarjeta p {
+    color: #52606d;
+    line-height: 1.5;
+}
+
