@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <style>
+    body { font-family: sans-serif; margin: 0; }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 220px 1fr; /* 2 Columnas */
+        /*
+            grid-template-columns: 220px 1fr; //2 Columnas
+        */
+        grid-template-rows: 80px 400px 60px; /* 3 Filas */
+        grid-template-areas: 
+            "header  header"
+            "sidebar main"
+            "footer  footer";
+        gap: 10px;
+        padding: 10px;
+        background-color: #cbd5e1;
+    }
+
+    /* Asignamos cada etiqueta a su área con nombre */
+    header  { grid-area: header;  background-color: #0f172a; color: white; padding: 20px; }
+    aside   { grid-area: sidebar; background-color: #38bdf8; padding: 20px; }
+    main    { grid-area: main;    background-color: #ffffff; padding: 20px; }
+    footer  { grid-area: footer;  background-color: #334155; color: white; padding: 15px; }
+  </style>
+</head>
+<body>
+
+  <div class="layout">
+    <header><h1>Cabecera (Header)</h1></header>
+    <aside><h3>Menú Lateral (Sidebar)</h3></aside>
+    <main><h2>Contenido Principal (Main)</h2><p>Aquí va el texto de la página...</p></main>
+    <footer><p>Pie de página (Footer)</p></footer>
+  </div>
+
+</body>
+</html>
