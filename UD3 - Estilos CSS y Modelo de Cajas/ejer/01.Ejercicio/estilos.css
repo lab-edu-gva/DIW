@@ -1,0 +1,164 @@
+
+/* A. ESTILOS GENERALES */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #e2e8f0;
+    color: #334155;
+    font-size: 16px;
+}
+
+/* B. CABECERA */
+
+#cabecera {
+    background-color: #0f172a;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #38bdf8;
+}
+
+.subtitulo {
+    font-size: 19px;
+    color: inherit;
+}
+
+/* C. CONTENEDOR Y SECCIONES */
+
+#contenido {
+    width: 950px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.titulo-seccion {
+    font-size: 26px;
+    color: #0f172a;
+}
+
+.secundaria {
+    background-color: #f8fafc;
+    padding: 15px;
+}
+
+/* D. TARJETAS */
+
+.curso {
+    background-color: #e0f2fe;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #0284c7;
+    border-radius: 12px;
+}
+
+.curso .titulo {
+    font-size: 23px;
+    color: #0369a1;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #475569;
+}
+
+.enlace {
+    color: #075985;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* E. SELECTORES COMBINADOS */
+
+#curso-html {
+    border: 5px solid #16a34a;
+}
+
+#curso-js {
+    background-color: #fef3c7;
+}
+
+#curso-python {
+    background-color: #fce7f3;
+}
+
+.curso .titulo {
+    color: #1e3a8a;
+}
+
+.aviso {
+    color: #dc2626;
+}
+
+.aviso.importante {
+    color: #9333ea;
+}
+
+/* F. HERENCIA Y VALORES ESPECIALES */
+
+#pie {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.legal {
+    font-size: inherit;
+}
+
+.informacion {
+    color: initial;
+}
+
+.mensaje {
+    color: unset;
+}
+
+/* G. PRUEBA DE ESPECIFICIDAD */
+
+p {
+    color: blue;
+}
+
+.descripcion {
+    color: green;
+}
+
+.curso p {
+    color: orange;
+}
+
+#curso-html .descripcion {
+    color: purple;
+}
+
+#curso-js .descripcion {
+    color: brown;
+}
+
+/* H. RETO ADICIONAL */
+
+.destacado .enlace {
+    background-color: black;
+    color: white;
+}
+
+.curso:not(.destacado) .enlace {
+    background-color: #bae6fd;
+}
+
+#pie p {
+    color: #64748b;
+}
+
+#otros-cursos .titulo-seccion {
+    color: #be123c;
+}
+
